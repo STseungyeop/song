@@ -14,7 +14,7 @@ int main(int argc, char*argv[])
     fp = fopen(argv[1], "r");
     if(fp == NULL){
         printf("Can’t open the file \n");
-        fclose(fp); 
+        fclose(fp); git remote add origin https://github.com/STseungyeop/song.git
         return -1; }
     int ch;
 
